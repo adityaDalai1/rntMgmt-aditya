@@ -4,7 +4,7 @@ import { Container, CssBaseline } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import axios from 'axios';
 
-import theme from './theme/neonGlowTheme';
+import theme from './theme/cyberPulseTheme';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -23,7 +23,7 @@ const App = () => {
     useEffect(() => {
         const fetchRooms = async () => {
             const response = await axios.get(
-                'https://5000-vishalp143-rntmgmtvisha-xs4df1lv6s3.ws-us117.gitpod.io/api/rooms'
+                'https://5000-adityadalai-rntmgmtadit-19usk943lv6.ws-us117.gitpod.io/api/rooms'
             );
             setRooms(response.data);
         };

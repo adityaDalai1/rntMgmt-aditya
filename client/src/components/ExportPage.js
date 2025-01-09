@@ -15,7 +15,7 @@ const ExportPage = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        axios.get('https://rntmgmt-vishal.onrender.com/api/rooms')
+        axios.get('https://rntmgmt-aditya.onrender.com/api/rooms')
             .then(res => {
                 setRooms(res.data);
                 setLoading(false);

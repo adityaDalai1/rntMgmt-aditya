@@ -134,7 +134,7 @@ const Homepage = () => {
                 <Grid item xs={12} sm={6} md={4}>
                     <Button
                         component="a"
-                        href="https://github.com/vishalP143/rntMgmt-Vishal"
+                        href="https://github.com/"
                         target="_blank"
                         rel="noopener noreferrer"
                         variant="contained"

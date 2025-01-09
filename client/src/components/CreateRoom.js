@@ -50,7 +50,7 @@ const CreateRoom = () => {
         }
 
         axios
-            .post('https://rntmgmt-vishal.onrender.com/api/rooms', room)
+            .post('https://rntmgmt-aditya.onrender.com/api/rooms', room)
             .then(() => {
                 alert('Room created successfully!');
                 setRoom({

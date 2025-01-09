@@ -25,7 +25,7 @@ const UpdateRoomInfo = () => {
 
     useEffect(() => {
         axios
-            .get(`https://rntmgmt-vishal.onrender.com/api/rooms/${id}`)
+            .get(`https://rntmgmt-aditya.onrender.com/api/rooms/${id}`)
             .then((res) => {
                 setRoom(res.data);
             })
@@ -62,7 +62,7 @@ const UpdateRoomInfo = () => {
         }
 
         axios
-            .put(`https://rntmgmt-vishal.onrender.com/api/rooms/${id}`, room)
+            .put(`https://rntmgmt-aditya.onrender.com/api/rooms/${id}`, room)
             .then(() => {
                 alert('Room updated successfully!');
                 navigate(`/rooms/${id}`);

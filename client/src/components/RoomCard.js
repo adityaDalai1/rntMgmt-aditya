@@ -22,7 +22,7 @@ const RoomCard = ({ room }) => {
             <CardMedia
                 component="img"
                 height="200"
-                image="https://roohtravel.com/wp-content/uploads/2023/07/thailand_hotels_with_pool.jpeg"
+                image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5IqxP_qjMeWYD8iJsQ28ZO-YnPPT4EURVsg&s"
                 alt="Room"
             />
 

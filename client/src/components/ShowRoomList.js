@@ -11,7 +11,7 @@ function ShowRoomList() {
 
     useEffect(() => {
         axios
-        .get(`https://rntmgmt-vishal.onrender.com/api/rooms`)
+        .get(`https://rntmgmt-aditya.onrender.com/api/rooms`)
         .then((res) => {
             console.log(res)
             setRooms(res.data);

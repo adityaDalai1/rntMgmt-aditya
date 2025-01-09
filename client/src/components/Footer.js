@@ -21,25 +21,25 @@ const Footer = () => (
           Rental Management System
         </Typography>
         <Typography variant="body2">
-          © {new Date().getFullYear()} Vishal Pradhan | All Rights Reserved
+          © {new Date().getFullYear()} ADITYA | All Rights Reserved
         </Typography>
       </Grid>
       <Grid item xs={12} sm={4} textAlign="center">
         <Typography variant="subtitle1">
-          Simplifying Rentals, One Step at a Time
+        Streamlining Rentals, Effortlessly and Efficiently
         </Typography>
       </Grid>
       <Grid item xs={12} sm={4} textAlign="center">
         <Typography variant="subtitle1" gutterBottom>
           Connect With Us
         </Typography>
-        <IconButton href="https://github.com/vishalP143" target="_blank" color="inherit">
+        <IconButton href="https://github.com/adityaDalai1/rntMgmt-Adi" target="_blank" color="inherit">
           <GitHubIcon />
         </IconButton>
-        <IconButton href="https://www.linkedin.com/in/vishal-pradhan-65901b327/" target="_blank" color="inherit">
+        <IconButton href="https://www.linkedin.com/in/aditya-dalai-a515b6326/" target="_blank" color="inherit">
           <LinkedInIcon />
         </IconButton>
-        <IconButton href="vishal.p8070@gmail.com" color="inherit">
+        <IconButton href="aditya.dalaiii312@gmail.com" color="inherit">
           <MailOutlineIcon />
         </IconButton>
       </Grid>

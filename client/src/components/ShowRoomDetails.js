@@ -40,7 +40,7 @@ const ShowRoomDetails = () => {
   useEffect(() => {
     if (id) {
       axios
-        .get(`https://rntmgmt-vishal.onrender.com/api/rooms/${id}`)
+        .get(`https://rntmgmt-aditya.onrender.com/api/rooms/${id}`)
         .then((res) => setRoom(res.data))
         .catch((err) => setError('Failed to load room details.'));
     }
@@ -48,7 +48,7 @@ const ShowRoomDetails = () => {
 
   const handleDelete = () => {
     axios
-      .delete(`https://rntmgmt-vishal.onrender.com/api/rooms/${id}`)
+      .delete(`https://rntmgmt-aditya.onrender.com/api/rooms/${id}`)
       .then(() => navigate('/rooms'))
       .catch(() => setError('Failed to delete the room.'));
     setOpenDialog(false);
@@ -89,7 +89,7 @@ const ShowRoomDetails = () => {
               <CardMedia
                 component="img"
                 height="300"
-                image="https://roohtravel.com/wp-content/uploads/2023/07/thailand_hotels_with_pool.jpeg"
+                image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5IqxP_qjMeWYD8iJsQ28ZO-YnPPT4EURVsg&s"
                 alt={room.room_number || 'Room Image'}
                 onError={(e) => {
                   e.target.src = 'https://via.placeholder.com/300x200?text=No+Image';
