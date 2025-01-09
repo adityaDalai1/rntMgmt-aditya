@@ -4,7 +4,7 @@ import { Container, CssBaseline } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import axios from 'axios';
 
-import theme from './theme/cyberPulseTheme';
+import theme from './theme/Theme';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -22,8 +22,8 @@ const App = () => {
 
     useEffect(() => {
         const fetchRooms = async () => {
-            const response = await axios.get(
-                'https://5000-adityadalai-rntmgmtadit-19usk943lv6.ws-us117.gitpod.io/api/rooms'
+            const response = await axios.get('https://rntmgmt-aditya.onrender.com/api/rooms'
+    
             );
             setRooms(response.data);
         };
